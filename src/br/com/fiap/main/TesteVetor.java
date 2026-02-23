@@ -51,5 +51,15 @@ public class TesteVetor {
                 JOptionPane.QUESTION_MESSAGE
         )  == 0);
 
+        // Saida usando for
+        for(int buscar = 0; buscar < indice; buscar++){
+            System.out.println(
+                    "\nNome: " + vetorAluno[buscar].getNome() +
+                    "\nRM: " + vetorAluno[buscar].getRm() +
+                    "\nTurma: " + vetorAluno[buscar].getTurma() +
+                    "\nIdade: " + vetorAluno[buscar].getIdade() +
+                    "\nNota: " + vetorAluno[buscar].getNota()
+            );
+        }
     }
 }
